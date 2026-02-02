@@ -17,6 +17,7 @@ func main() {
 
 	fmt.Println("The name of the employee is : ", employee.name)
 	fmt.Println("The id of the employee is : ", employee.id)
+	fmt.Println("Is employee a remote employee :", employee.isRemote)
 
 	job := struct { //Anynomous struct
 		name   string
